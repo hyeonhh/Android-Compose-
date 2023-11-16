@@ -44,7 +44,9 @@ fun ComposeCard(modifier: Modifier=Modifier) {
 
     Column {
         Row(
-            modifier=modifier,
+            modifier=modifier
+                .weight(1f),
+
         ) {
 
             createCard(
